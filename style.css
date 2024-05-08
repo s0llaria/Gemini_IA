@@ -1,0 +1,21 @@
+/* Estilos para header, nav, sections, footer, produtos, carrinho, etc. */
+
+#produtos .produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#produtos img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#carrinho .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
